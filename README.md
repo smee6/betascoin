@@ -1,0 +1,2 @@
+# betascoin
+betascoin_project
