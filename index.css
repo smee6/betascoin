@@ -61,7 +61,11 @@ a:hover {
     display: flex;
     align-items: center;
 }
-
+#headbarpadding{
+    padding-left: 15%;
+    display: flex;
+    float: left;
+}
 
 .mainframe{
     display: flex;
@@ -100,11 +104,14 @@ a:hover {
     display: none;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 680px){
     .mobileview {
         display: inline;
     }
     .desktopview{
         display: none;
+    }
+    #headbarpadding{
+        padding-left: 2%;
     }
 }
